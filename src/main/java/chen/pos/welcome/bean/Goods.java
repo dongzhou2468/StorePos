@@ -1,6 +1,5 @@
 /**
- * Copyright (c) 2019, TP-Link Co.,Ltd.
- * Author: chenhang <chenhang@tp-link.com.cn>
+ * Author: dongzhou <414214550@qq.com>
  * Created: 2019-06-06
  */
 package chen.pos.welcome.bean;
