@@ -12,9 +12,9 @@ public class Goods {
     private String id;
     private String barCode;
     private String name;
-    private String price;
-    private String stock;
-    private String actegory;
+    private float price;
+    private int stock;
+    private String category;
 
     public String getId() {
         return id;
@@ -40,28 +40,28 @@ public class Goods {
         this.name = name;
     }
 
-    public String getPrice() {
+    public float getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(float price) {
         this.price = price;
     }
 
-    public String getStock() {
+    public int getStock() {
         return stock;
     }
 
-    public void setStock(String stock) {
+    public void setStock(int stock) {
         this.stock = stock;
     }
 
-    public String getActegory() {
-        return actegory;
+    public String getCategory() {
+        return category;
     }
 
-    public void setActegory(String actegory) {
-        this.actegory = actegory;
+    public void setCategory(String category) {
+        this.category = category;
     }
 
     @Override
@@ -72,7 +72,7 @@ public class Goods {
                 .add("name", name)
                 .add("price", price)
                 .add("stock", stock)
-                .add("actegory", actegory)
+                .add("category", category)
                 .toString();
     }
 }
